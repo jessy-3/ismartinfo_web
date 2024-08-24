@@ -1,0 +1,115 @@
+/*基本的页面样式*/
+/*公共样式*/
+/*is- --> ismart*/
+.is-nav{
+    height: 100px;
+    line-height: 100px;
+    background-color: #0d2040;
+    color: #f7f7f7;
+}
+.logo{
+    line-height: 100px;
+}
+.logo img{
+    display: inline;
+    vertical-align: middle;
+}
+.is-nav .nav a{
+	display: inline-block;
+	width: 100%;
+	/*height: 100%;*/
+    font-size: 20px;
+    line-height: 94px;
+    vertical-align: middle;
+    color: #fff;
+}
+.is-nav .nav a:hover,.is-nav .nav a:focus,.is-nav .nav a:active,.is-nav .nav a.active{
+    color: #ff6c00
+}
+.is-nav .nav li{
+    width: 19.666667%
+}
+.banner-wrap{
+    height: 626px;
+    background: #060721 url("../img/IndexBanner.jpg") center no-repeat;
+    color: #fff;
+    padding-top: 180px;
+    box-sizing: border-box;
+}
+.banner-wrap>h1{
+    font-size: 42px!important;
+    margin-bottom: 65px;
+}
+.banner-wrap>h2{
+    font-size: 28px!important;
+    margin-bottom: 35px;
+}
+.banner-wrap img{
+    width: 100%;
+}
+.is-content{
+    /*min-height: 560px;*/
+}
+.index_title{
+    padding-top: 72px;
+    margin-bottom: 50px;
+}
+.index_title h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+.index_title p{
+    font-size: 24px;
+    color: #333;
+}
+.index_title p span{
+    color: #005cff;
+}
+
+
+
+.is-footer{
+    /*height: 268px;*/
+    padding-top: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.is-footer-top{
+	height: 110px;
+    /*line-height: 1.7em;*/
+	padding-top: 50px;
+	font-size: 20px;
+    color: #f7f7f7;
+    background-color: #3b3f43;
+    border-bottom: 2px solid #7e8183;
+}
+.http{
+    font-size: 28px;
+	text-decoration: underline;
+    color: #fff;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+.service-warp{
+
+}
+.service img{
+    display: inline;
+    padding-top: 8px;
+}
+.service span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.service{
+    color: #1f1f1f;
+}
+.service p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.service .ser-box{
+    margin-bottom: 108px;
+}
